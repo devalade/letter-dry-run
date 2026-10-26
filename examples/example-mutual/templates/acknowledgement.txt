@@ -1,0 +1,24 @@
+{{letter_date}}
+
+{{claimant_name}}
+{{claimant_address}}
+
+Re: Claim {{claim_number}}
+Policy: {{policy_number}}
+Date of loss: {{date_of_loss}}
+
+Dear {{claimant_name}},
+
+We received notice of your claim for the loss involving your {{vehicle}} on {{date_of_loss}}. Your claim has been assigned to {{adjuster_name}}, who will contact you within three business days.
+
+You can reach {{adjuster_name}} at {{adjuster_phone}}, Monday to Friday, 8am to 5pm.
+
+Please keep receipts for any expenses related to this loss.
+
+{{#if state = CA}}
+Any person who knowingly presents false or fraudulent information to obtain or amend insurance coverage or to make a claim for the payment of a loss is guilty of a crime and may be subject to fines and confinement in state prison.
+
+{{/if}}
+Sincerely,
+{{adjuster_name}}
+Example Mutual Insurance

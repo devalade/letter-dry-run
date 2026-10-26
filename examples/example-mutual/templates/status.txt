@@ -1,0 +1,18 @@
+{{letter_date}}
+
+{{claimant_name}}
+{{claimant_address}}
+
+Re: Claim {{claim_number}}
+
+Dear {{claimant_name}},
+
+This letter is an update on your claim. Your collision coverage applies to this loss, subject to a deductible of {{deductible}}.
+
+We are still waiting for the repair estimate from the shop you chose. Once we receive it, we will review it and contact you within 15 days.
+
+If you have questions, call {{adjuster_name}} at {{adjuster_phone}}.
+
+Sincerely,
+{{adjuster_name}}
+Example Mutual Insurance

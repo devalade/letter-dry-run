@@ -1,0 +1,22 @@
+{
+  "name": "letter-dry-run",
+  "version": "0.1.0",
+  "description": "Replay a carrier's sent claims letters through templates and review only the differences",
+  "type": "module",
+  "bin": {
+    "letter-dry-run": "src/cli.ts"
+  },
+  "engines": {
+    "node": ">=23.6"
+  },
+  "scripts": {
+    "demo": "node src/cli.ts examples/example-mutual dry-run-report.html",
+    "test": "node --test",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  },
+  "license": "MIT"
+}
